@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/webp/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, .7);
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -739,8 +739,15 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #000000!important;
+}
+
+
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
@@ -775,12 +782,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #e47636!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -810,19 +817,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/webp/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/webp/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/webp/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/webp/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
